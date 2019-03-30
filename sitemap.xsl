@@ -82,7 +82,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<xsl:for-each select="./sitemap:url">
 					<tr>
 						<xsl:if test="position() mod 2 != 1">
-							<xsl:attributename="class">high</xsl:attribute>
+							<xsl:attribute name="class">high</xsl:attribute>
 						</xsl:if>
 						<td>
 							<xsl:variable name="itemURL">
@@ -119,7 +119,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 				<xsl:for-each select="./sitemap:sitemap">
 					<tr>
 						<xsl:if test="position() mod 2 != 1">
-							<xsl:attributename="class">high</xsl:attribute>
+							<xsl:attribute name="class">high</xsl:attribute>
 						</xsl:if>
 						<td>
 							<xsl:variable name="itemURL">
